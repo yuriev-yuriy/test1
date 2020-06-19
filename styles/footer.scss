@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+    font-family: "Montserrat", "sans-serif";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.insta-link {
+    display: block;
+
+    width: 32px;
+    height: 32px;
+    background-image: url("../images/program/instagram.svg");
+}

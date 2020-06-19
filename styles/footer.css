@@ -1,0 +1,99 @@
+html {
+    box-sizing: border-box;
+    font-family: "Montserrat", "sans-serif";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-footer {
+    padding-top: 38px;
+}
+
+.insta-link {
+    margin: 0 auto;
+    display: block;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/program/instagram.svg");
+}
+
+.logo {
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 800px;
+    color: rgb(0, 0, 0);
+}
+
+.logo-desc {
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 6px;
+    font-weight: 700;
+    letter-spacing: 0.13em;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: rgb(255, 107, 8);
+}
+
+.logo-svg {
+    display: inline-block;
+    fill: rgb(255, 107, 8);
+    width: 18px;
+    height: 30px;
+    background-size: 200%;
+}
+
+.footer-bottom {
+    background-color: rgb(17, 21, 23);
+    min-height: 72px;
+}
+
+.footer-desc {
+    font-size: 11px;
+    font-family: "Montserrat";
+    color: rgba(253, 254, 254, 0.42);
+    line-height: 38px;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    vertical-align: middle;
+}
